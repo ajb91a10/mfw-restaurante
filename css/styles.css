@@ -132,6 +132,57 @@ max-height: 300px;
   font-size: 2em;
   text-shadow: 1px 1px 5px #0a0a0a;
 }
+.#menu {
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+#menu h1 {
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  font-size: 6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+#menu h3 {
+text-align: center;
+fonnt-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 2em;
+}
+#menu a {
+  color: #f8512f;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#menu p {
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+.food {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#menu .nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
+}
+#menu .nav-justified li a {
+  margin-bottom: -5px;
+}
+#menu .nav-tab li a {
+  border: none;
+}
+
+
+
+
+
 /* .main_logo {
   max-height: 300px;
 } */
