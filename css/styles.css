@@ -132,7 +132,7 @@ max-height: 300px;
   font-size: 2em;
   text-shadow: 1px 1px 5px #0a0a0a;
 }
-.#menu {
+#menu {
   background-image: url('../img/black_linen.png');
   background-size: cover;
   background-attachment: fixed;
