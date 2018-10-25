@@ -178,9 +178,23 @@ font-size: 2em;
 #menu .nav-tab li a {
   border: none;
 }
+#contact {
+  background-color: #F8512F;
+}
+.white-text {
+  color: white;
+}
+.contact-text {
+  font-weight: 700;
+}
+
+.contact-form {
+  border: 1px white solid;
+  background-color: #FF6633;
+  color: white;
 
 
-
+}
 
 
 /* .main_logo {
