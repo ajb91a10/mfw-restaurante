@@ -40,42 +40,42 @@
 					<!--start carousel-->
 					<!--start wrapper-->
 <div class="container-fluid wrap">
-						<div id="myCarousel" class="carousel slide" data-ride="carousel">
-	<ol class="carousel-indicators">
-     <li data-target="myCarousel" data-slide-to="0" class="active">
-     </li>
-     <li data-target="myCarousel" data-slide-to="1">
-     </li>
-     <li data-target="myCarousel" data-slide-to="2"></li>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+     <li data-target="#myCarousel" data-slide-to="1"></li>
+     <li data-target="#myCarousel" data-slide-to="2"></li>
    </ol>
-	 <div class="carousel-inner" role="listbox">
+	 <div class="carousel-inner">
 	 	<div class="item main_img1 active">
-	 		<div class="carousel-caption"><img src="img/logo-01.png" alt="logo" class="img-responsive main_logo center-block">
+	 		<div class="carousel-caption">
+				<img src="img/logo-01.png" alt="logo" class="img-responsive main_log center-block">
 			</div>
-	 	 </div>
-				<div class="item main_img2">
-					<div class="carousel-caption">
-						<h1>Eat Local</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quaerat voluptatibus commodi?</p>
-						<a href="#" class="btn btn-lg btn-primary" role="button">Learn More</a>
-					</div>
-				</div>
-				<div class="item main_img3">
-					<div class="carousel-caption">
-						<h1>From Farm to Table</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil hic quae quas.</p>
-						<a href="#" class="btn btn-lg btn-primary" role="button">Learn More</a>
-					</div>
-				</div>
-				</div>
+	 	</div>
+		<div class="item main_img2">
+			<div class="carousel-caption">
+				<h1>Eat Local</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quaerat voluptatibus commodi?</p>
+				<a href="#" class="btn btn-lg btn-primary" role="button">Learn More</a>
+			</div>
+		</div>
+		<div class="item main_img3">
+			<div class="carousel-caption">
+				<h1>From Farm to Table</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil hic quae quas.</p>
+				<a href="#" class="btn btn-lg btn-primary" role="button">Learn More</a>
+			</div>
+		</div>
+	</div>
 				<!--begin controls-->
-				<a href="#myCarousel" class="left carousel-control" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-					<span class="sr-only">Previous</span></a>
-					<a href="#myCarousel" class="right carousel-control" role="button" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
+		<a href="#myCarousel" class="left carousel-control" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a href="#myCarousel" class="right carousel-control" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
 				<!--end controls-->
 		</div>
 		<!--wrapper ends-->
@@ -264,7 +264,7 @@
 <script>
 $(function() {
           $('a[href*=#]:not([href=#])').click(function() {
-              if( $(this).attr("href") =="#carousel-example-generic"
+              if( $(this).attr("href") =="#myCarousel"
                   || $(this).attr("href")=="#appetizer"
                   || $(this).attr("href")=="#lunch"
                   || $(this).attr("href")=="#dinner"
